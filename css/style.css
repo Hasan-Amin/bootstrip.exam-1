@@ -1,0 +1,388 @@
+/*font link*/
+@font-face{
+	src: url(..fonts/work-sans/worksans-medium.ttf);
+	font-family: worksans-medium;
+}
+@font-face{
+	src: url(..fonts/work-sans/worksans-regular.ttf);
+	font-family: worksans-regular;
+}
+@font-face{
+	src: url(..fonts/work-sans/worksans-semibold.ttf);
+	font-family: worksans-semibold;
+}
+:root{
+	--bg: #181A2A;
+	--white: #ffffff;
+	--green: #4B6BFB;
+}
+body{
+	font-family: worksans-regular;
+	font-weight: 400;
+	color: var(--white) !important;
+	background-color: var(--bg);
+
+}
+ /*header start*/
+header{
+	padding: 15px 0;
+	background-color: var(--bg);
+}
+.logo1{
+	font-size: 30px;
+	color: var(--green);
+}
+.search{
+	border-color: var(--bg);
+	background-color: transparent;
+	border: none;
+}
+.search:focus{
+	background-color: var(--bg);
+	border: none;
+}
+.form-control {
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+}
+.cnav{}
+.logo{}
+.menu{
+
+}
+.tog:focus{
+	border-color: white;
+}
+.menu ul li a{
+	font-family: worksans-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--white) !important;
+	padding: 10px 20px 10px !important;
+}
+.menu ul li a:hover{
+	color: var(--green) !important;
+}
+/*header end*/
+
+/*page start*/
+.page{
+	padding: 40px 0 16px;
+	background-color: var(--bg);
+}
+.h-p{
+	text-align: center;
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 30px;
+}
+.p-p{
+	text-align: center;
+	font-family: worksans-regular;
+	font-size: 14px;
+	font-weight: 400;
+}
+.s-p{
+	padding: 0 5px 0 0 !important;
+}
+.page ul{
+	text-align: center;
+}
+.page ul li a{
+	text-decoration: none;
+	color: white;
+}
+.page ul li a:hover{
+	color: var(--green);
+}
+/*page end*/
+
+/*banner start*/
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-cm{
+	font-family: worksans-medium;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 4px 10px;
+	color: white;
+	background-color: var(--green) !important;
+	border: none;
+}
+.btn-cm:hover{
+	background-color: var(--white) !important;
+	color: var(--green);
+}
+.banner-p{
+	padding: 306px 40px 40px;
+}
+.b-text{}
+.btn-ban{}
+.h1-b{
+	padding: 14px 80px 24px 0;
+	line-height: 40px;
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 40px;
+}
+.b-f{}
+.co-footer{
+
+}
+.b-img{
+	width: 30px;
+	height: 30px;
+}
+.co-left{
+	font-family: worksans-medium;
+	font-weight: 500;
+	font-size: 12px;
+}
+.co-right{
+	font-family: worksans-medium;
+	font-weight: 500;
+	font-size: 12px;
+}
+.p-f-b{
+	padding: 5px 0 0 0;
+}
+
+/*banner end*/
+/*l-post start*/
+.banner-foo{
+	background-color: var(--bg);
+	padding-top: 48px;
+
+}
+
+.pa{
+	font-family: worksans-semibold;
+	font-weight: 700;
+	font-size: 24px;
+
+}
+/*l-post end*/
+
+/*latest post start*/
+.post{
+	background-color: var(--bg);
+
+}
+.post-p{
+	margin-top: 20px;
+	border: 1px solid #242535;
+	padding: 16px;
+	border-radius: 15px;
+
+
+}
+.p-img{
+	padding-bottom: 16px;
+
+}
+.p-text{
+	padding: 8px;
+
+}
+.h2-p{
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 24px;
+	padding: 16px 0 20px;
+
+}
+.p-f-p{
+	padding: 5px 0 0 0;
+}
+.l-post-p{
+	text-align: center;
+	font-family: worksans-medium;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 32px;
+	border: 1px solid #242535;
+	border-radius: 15px;
+	padding: 12px 20px;
+	margin-left: 25px;
+}
+.l-post-p ul{
+	text-decoration: none;
+}
+.l-post-p ul li a{
+	text-decoration: none !important;
+	color: #696A75;
+}
+.l-post-p a:hover{
+	color: white;
+}
+.l-post-a{}
+
+
+/*latest post end*/
+
+/*you can start*/
+
+.can{}
+.c-text{
+	border: 1px solid #242535;
+	background-color: #242535;
+	border-radius: 15px;
+	margin: 80px 0;
+	padding: 15px 0;
+	color: #696A75;
+}
+.c-p{
+	text-align: center;
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 14px;
+
+}
+.c-h2{
+	text-align: center;
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 20px;
+}
+.c-pp{
+	text-align: center;
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 16px;
+}
+.c-text:hover{
+	color: white;
+}
+
+/*you can end*/
+
+
+/*footer start */
+.footer{
+	border-top: 1px solid #242535;
+	background-color: #141624;
+
+}
+/*footer top start */
+.footer-top{
+	padding: 64px 0 82px;
+}
+.f-info{
+	padding-right: 160px;
+}
+.f-h2{
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 20px;
+}
+.f-p{
+	padding: 18px 0 28px;
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 14px;
+}
+.f-pp{
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 14px;
+}
+.f-s{
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 16px;	
+}
+.f-a{
+	text-decoration: none;
+	color: white;
+}
+.f-link h2{
+	margin-bottom: 24px;
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.f-link ul li a{
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 16px;	
+	color: white;
+	text-decoration: none;
+	margin-bottom: 3px;
+	display: block;
+}
+.email{
+
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid #242535;
+	background-color: #242535;
+	border-radius: 15px;
+	padding: 32px 0;
+	color: #696A75;
+}
+.e-h2{
+	color: white;
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 20px;	
+}
+.e-p{
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 16px;	
+}
+.f-input{
+	background-color: #141624;
+	margin: 0px 60px 8px;
+    padding: 5px 40px 5px 5px;
+    border: 1px solid #3B3C4A;
+	border-radius: 5px;
+}
+.f-btn{
+	margin: 0px 60px 8px;
+    padding: 5px 90px 5px;
+	background-color: #4B6BFB;
+	color: white;
+}
+.f-btn:hover{
+	background-color: white;
+	color: #4B6BFB;
+}
+/*footer top end */
+
+.footer-btm{}
+.logo-f{
+	text-align: center !important;
+	height: 48px;
+	width: 48px;
+
+}
+.fb-h2{
+	font-family: worksans-semibold;
+	font-weight: 600;
+	font-size: 20px;
+}
+.fb-p{
+	font-family: worksans-regular;
+	font-weight: 400;
+	font-size: 16px;
+}
+.fb-ul{
+}
+.fb-a{
+	padding: 10px 20px 0;
+}
+.f-page ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*footer end */
